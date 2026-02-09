@@ -1,5 +1,4 @@
 package zoo;
-
 public class Animal {
     String family;
     String name;
@@ -13,13 +12,8 @@ public class Animal {
         this.isMammal = isMammal;
     }
 
-    @Override
     public String toString() {
-        return "Animal{" +
-                "name='" + name + '\'' +
-                ", family='" + family + '\'' +
-                ", age=" + age +
-                ", isMammal=" + isMammal +
-                '}';
+        return "Animal: " + name + ", Famille: " + family +
+                ", Age: " + age + " ans, Mammifère: " + isMammal;
     }
 }
